@@ -21,15 +21,28 @@ A continuación crea el archivo .gitignore
 ## Proyecto en local¿cómo lo subo a GitHub?
 
 > Primer paso, creamos un nuevo archivo en nuestro proyecto llamado **README** con extension md, que es indispensable siempre que trabajemos con **GITHUB**.
->> Segundo paso, entramos a nuestro GitHub, creamos un repositorio con el nombre del proyecto**IMPORTANTE : NO AÑADIMOS NADA AL CREAR EL REPOSITORIO EN GITHUB**.
+>> Segundo paso, entramos a nuestro GitHub, creamos un repositorio con el nombre del proyecto **IMPORTANTE : NO AÑADIMOS NADA AL CREAR EL REPOSITORIO EN GITHUB**.
 >>> Tercer paso, copiamos la URL del repositorio que acabamos de crear para subir nuestro proyecto.
 
 ![Texto alternativo](img/copiar%20URL.png "Texto de hover")
 
->>>> Cuarto y último paso, escribir comando en nuestro cmd para subir proyecto:
+>>>> Cuarto paso, escribir comando en nuestro cmd para subir proyecto:
 
 ```shell
 git remote add master/main(según el que tengas) origin http......(URL COPIADA)
+```
+
+ Para verificar que haya ejecutado correctamente la URL remota, ejecutamos el siguiente comando:
+
+```shell
+git remote -v
+```
+
+ Para enviar los cambios de su repositorio local a GitHub, ejecute el siguiente comando.
+
+```shell
+git push origin master/main http..(URL COPIADA)
+
 ```
 
 ## Proyecto en GitHub¿cómo lo subo a local?
@@ -53,5 +66,5 @@ composer install
 >>Otra manera de hacerlo es escribir directamente el siguiente comando:
 
 ```shell
-git pull origin master/main(según el que tengas) http....(URL COPIADA)
+git pull origin master/main http....(URL COPIADA)
 ```
