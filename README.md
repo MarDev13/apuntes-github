@@ -50,6 +50,8 @@ git push origin master/main http..(URL COPIADA)
 > Primer paso, en tu directorio de GitHub encontrarás un botón verde llamado **code** a la derecha, haz click y copia la direccón URL.
 >> Segundo paso, abrir cmd apuntando a proyectos y escribimos el comando para clonar nuestro proyecto :
 
+![Texto alternativo](img/boton_code.png "Texto de hover")
+
 ```shell
 git clone http....(URL COPIADA)
 ```
@@ -63,6 +65,9 @@ composer install
 ## Trabajar actualizando últimas versiones
 
 >Primer paso, desde visual studio code, pulsamos incorporar pull.
+
+![Texto alternativo](img/vs_clone.png "Texto de hover")
+
 >>Otra manera de hacerlo es escribir directamente el siguiente comando:
 
 ```shell
