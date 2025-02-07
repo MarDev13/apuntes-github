@@ -41,7 +41,7 @@ git remote -v
  Para enviar los cambios de su repositorio local a GitHub, ejecute el siguiente comando.
 
 ```shell
-git push origin master/main http..(URL COPIADA)
+ git push -u origin master
 
 ```
 
